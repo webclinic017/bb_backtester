@@ -20,8 +20,8 @@
   "fixed_sl_points": 100,
   "trailing_sl_percentage": 0.02,
   "trailing_sl_delta_increment": 0.003,
-  "blind_skip_days_list": ["Tuesday", "Friday"],
-  "daywise_mtm_sl_percentage":{
+  "blind_skip_days_list": [],
+  "daywise_mtm_sl_percentage": {
     "Monday": 0.01,
     "Tuesday": 0.01,
     "Wednesday": 0.01,
@@ -48,10 +48,10 @@
     "Saturday": 0,
     "Sunday": 0
   },
-  "daywise_retry_count":{
+  "daywise_retry_count": {
     "Monday": 2,
     "Tuesday": 2,
-    "Wednesday":2,
+    "Wednesday": 2,
     "Thursday": 2,
     "Friday": 2,
     "Saturday": 2,

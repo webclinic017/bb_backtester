@@ -1,0 +1,8 @@
+{
+  "typeCheckingMode": "off", // Options are "off", "basic", "strict"
+  "reportGeneralTypeIssues": false, // Set to false to reduce type issue reporting
+  "reportMissingImports": true, // Set to false to ignore missing imports
+  "venv": "bb_backtester",
+  "venvPath": "/Users/simon/.virtualenvs"
+  // Add other settings as needed to adjust strictness
+}
