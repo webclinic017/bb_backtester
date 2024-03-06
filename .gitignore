@@ -27,3 +27,4 @@ var/
 *.egg
 conf/local_conf.py
 *.html
+tmp/*

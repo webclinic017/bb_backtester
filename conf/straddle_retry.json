@@ -1,6 +1,6 @@
 {
-  "start_date": "2023-01-02",
-  "end_date": "2023-12-30",
+  "start_date": "2023-08-01",
+  "end_date": "2023-08-30",
   "capital": 600000,
   "quantity": 300,
   "output_filename": "straddle_retry_thrice_stats.html",
@@ -20,31 +20,34 @@
   "fixed_sl_points": 100,
   "trailing_sl_percentage": 0.02,
   "trailing_sl_delta_increment": 0.003,
-  "blind_skip_days_list": [],
+  "blind_skip_days_list": [
+    "Saturday",
+    "Sunday"
+  ],
   "daywise_mtm_sl_percentage": {
     "Monday": 0.01,
     "Tuesday": 0.01,
     "Wednesday": 0.01,
     "Thursday": 0.01,
-    "Friday": 0.001,
+    "Friday": 0.01,
     "Saturday": 0.01,
     "Sunday": 0.01
   },
   "daywise_sl_percentage": {
-    "Monday": 0.15,
+    "Monday": 0.10,
     "Tuesday": 0.15,
     "Wednesday": 0.15,
     "Thursday": 0.15,
-    "Friday": 0.15,
+    "Friday": 0.10,
     "Saturday": 0.15,
     "Sunday": 0.15
   },
   "daywise_delta_points_entry": {
-    "Monday": 0,
+    "Monday": 2,
     "Tuesday": 0,
     "Wednesday": 0,
     "Thursday": 0,
-    "Friday": 0,
+    "Friday": 2,
     "Saturday": 0,
     "Sunday": 0
   },
@@ -57,8 +60,8 @@
     "Saturday": 2,
     "Sunday": 2
   },
-  "read_from_serialized_input": true,
-  "serialize_input_filename_pe": "/tmp/df_pe_2023.gz",
-  "serialize_input_filename_ce": "/tmp/df_ce_2023.gz",
-  "serialize_input_filename_underlying": "/tmp/df_underlying_2023.gz"
+  "read_from_serialized_input": false,
+  "serialize_input_filename_pe": "tmp/df_pe_2023.gz",
+  "serialize_input_filename_ce": "tmp/df_ce_2023.gz",
+  "serialize_input_filename_underlying": "tmp/df_underlying_2023.gz"
 }

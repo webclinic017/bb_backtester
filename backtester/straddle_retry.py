@@ -456,7 +456,7 @@ def split_df_for_multiprocessing(df):
     unique_days = df["date_only"].unique()
 
     # Step 2: Group Days into 'N' Bins
-    N = 8  # Example value for 'N'
+    N = 4  # Example value for 'N'
     days_per_group = len(unique_days) // N
     grouped_days = [
         unique_days[i : i + days_per_group]
